@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #aeb9c3;
+}
+
+h1 {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#boggle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    text-align: center;
+    margin: auto;
+}
+
+.board {
+    margin: auto;
+    padding: 1rem;
+}
+
+.cell {
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    padding: .75rem;
+    color: white;
+    border-radius: 20%;
+    border-style: outset;
+    border-width: thin medium thick;
+    border-color: #383c40;
+    background-color: lightslategray;
+}
+
+.bottom {
+    margin: auto;
+    padding: 1rem;
+    text-align: center;
+    line-height: .5rem; 
+}
